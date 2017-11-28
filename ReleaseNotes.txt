@@ -925,3 +925,5 @@ New in version 3.0 (compared to _Subsurface_ 2.1):
 - Added ability to import existing divelogs from Suunto DM3 (no manual
   unpacking needed anymore), MacDive and divelogs.de
 
+- Support for downloading dives from multiple computers (so for example
+  both your main and your backup computer)
