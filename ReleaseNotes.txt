@@ -24,6 +24,8 @@ Some of the changes since _Subsurface_ 4.7.4
   is editing a dive site by pressing Enter or clicking a "flag" button
 - map-widget: prevent glitches when the user is interacting with the map
   while animations are in progress
+- b1 test b1 test b1 test b1 test b1 test b1 test b1 test b1 test b1 test b1
+  test b1 test b1 test b1 test b1 test b1 test b1 test b1 test b1 test b1 test.     
 - b0 test b0 test b0 test b0 test b0 test b0 test b0 test b0 test b0 test b0
   test b0 test b0 test b0 test b0 test b0 test b0 test b0 test b0 test b0 test.     
 
