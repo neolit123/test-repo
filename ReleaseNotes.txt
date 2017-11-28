@@ -922,4 +922,6 @@ New in version 3.0 (compared to _Subsurface_ 2.1):
 
 - dasdjas98 das98d9as08das908 90d8as d8s8ddas908 d as08d s90a8d as908d as90dddd
   dasdas dasd askjdaskd kjashd ashd ashdash dkjashdaskh dskh as sdahkj dashkd
+- Added ability to import existing divelogs from Suunto DM3 (no manual
+  unpacking needed anymore), MacDive and divelogs.de
 
