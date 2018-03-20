@@ -1,17 +1,7 @@
 {
 	"version": "1.0",
-	"constants": [
-		{
-			"key": "contrib_link",
-			"value": "https://raw.githubusercontent.com/neolit123/test-repo/master/ReleaseNotes.txt"
-		},
-		{
-			"key": "test1",
-			"value": "val_test1"
-		},
-		{
-			"key": "test2",
-			"value": "val_test2"
-		}
-	]
+	"constants": {
+		"contrib_link": "https://raw.githubusercontent.com/neolit123/test-repo/master/ReleaseNotes.txt",
+		"key1": "value1"
+	}
 }
