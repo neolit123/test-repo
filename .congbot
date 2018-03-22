@@ -2,6 +2,6 @@
 	"version": "1.0",
 	"constants": {
 		"contrib_link": "https://raw.githubusercontent.com/neolit123/test-repo/master/ReleaseNotes.txt",
-		"key1": "value1"
+		"key1": "value12"
 	}
 }
