@@ -1,3 +1,4 @@
+- test
 - Fix issues with filters not updating after changes to the dive list
   (#551, #675)
 - da sdasdsd addas asddsd asdhashjkdhkd ash dhas dhs ddaskh daskhdaskhd kjasd
@@ -923,3 +924,5 @@ New in version 3.0 (compared to _Subsurface_ 2.1):
 - dasdjas98 das98d9as08das908 90d8as d8s8ddas908 d as08d s90a8d as908d as90dddd
   dasdas dasd askjdaskd kjashd ashd ashdash dkjashdaskh dskh as sdahkj dashkd
 
+- Support for downloading dives from multiple computers (so for example
+  both your main and your backup computer)
