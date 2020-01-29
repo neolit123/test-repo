@@ -1,0 +1,15 @@
+name: kk-sync
+on:
+  schedule:
+    - cron: '*/1 * * * *'
+jobs:
+  create_commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: setup
+        run: |
+          mkdir -p $GITHUB_WORKSPACE/bin
+          echo "echo hello world" > $GITHUB_WORKSPACE/bin/hello-world
+          chmod +x $GITHUB_WORKSPACE/bin/hello-world
+      - name: execute
+        run: hello-world
