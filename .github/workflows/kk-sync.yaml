@@ -6,10 +6,8 @@ jobs:
   create_commit:
     runs-on: ubuntu-latest
     steps:
-      - name: setup
-        run: |
-          mkdir -p $GITHUB_WORKSPACE/bin
-          echo "echo hello world" > $GITHUB_WORKSPACE/bin/hello-world
-          chmod +x $GITHUB_WORKSPACE/bin/hello-world
-      - name: execute
-        run: hello-world
+    - uses: actions/checkout@v2
+    - uses: actions/setup-go@v1
+      with:
+        go-version: '1.9.3' # The Go version to download (if necessary) and use.
+    - run: go run ./test-go/test.go
