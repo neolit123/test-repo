@@ -12,5 +12,4 @@ jobs:
         go-version: '1.9.3'
     - run: |
         go run ./test-go/test.go
-        echo ${{ secrets.GITHUB_TOKEN }}
-        curl -I -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/users/neolit123/test-repo
+        curl -I -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/users/neolit123
